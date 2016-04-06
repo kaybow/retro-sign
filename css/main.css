@@ -34,3 +34,6 @@ svg {
 .lines path {
   stroke-dasharray: 0, 480;
 }
+
+.is-engaged
+  transition: all 5s ease;
