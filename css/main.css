@@ -33,7 +33,20 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
+  animation: all 3s linear;
 }
 
-.is-engaged
+.is-engaged .engage path {
   transition: all 5s ease;
+}
+
+@keyframes show {
+
+  0% {
+    stoke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
+}
