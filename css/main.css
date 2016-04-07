@@ -29,13 +29,10 @@ svg {
 
 .btn {
   cursor: pointer;
-  transition: all .5s linear;
-  background-color: #f15c07;
 }
 
 .lines path {
   stroke-dasharray: 0, 480;
-  animation: all 2s linear;
 }
 
 .is-engaged .engage path {
