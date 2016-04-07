@@ -35,7 +35,7 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
-  animation: all 3s linear;
+  animation: all 2s linear;
 }
 
 .is-engaged .engage path {
